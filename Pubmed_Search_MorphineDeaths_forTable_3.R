@@ -30,7 +30,7 @@ my_query3 <- "(morphine NOT (heroin OR children OR animals) AND (fatal dose OR d
 my_query4 <- "((Postmortem OR (post mortem)) AND morphine NOT heroin AND ((morphine dose) OR (morphine level) OR (morphine concentration) OR (morphine blood) OR (morphine plasma) OR (morphine serum))) NOT (rats OR rabbits OR animals) NOT review [Publication Type]"
 my_query5 <- "((Postmortem OR (post mortem)) AND redistribution AND morphine NOT heroin) NOT review [Publication Type]"
 my_query6 <- "(Postmortem OR (post mortem)) AND (blood OR plasma OR serum) AND (concentration OR level) AND morphine NOT heroin AND (putrefaction OR putrefied OR decomposition OR decomposed OR exhumation OR exhumed) NOT review [Publication Type]"
-my_query7 <- "((morphine NOT (heroine OR codeine OR LSD OR naltrexone OR fentanyl OR tramadol OR animals OR rats OR mice OR rabbits) AND (administration OR administered OR dose OR dosing OR treatment OR treat OR therapy OR injection OR injected OR infusion OR tablet OR ingestion) AND (fatal OR death OR deadly OR overdose OR (morphine toxicity)) AND (dose OR ((blood OR plasma OR serum) OR concentration OR level))) NOT review [Publication Type])"
+#my_query7 <- "((morphine NOT (heroine OR codeine OR LSD OR naltrexone OR fentanyl OR tramadol OR animals OR rats OR mice OR rabbits) AND (administration OR administered OR dose OR dosing OR treatment OR treat OR therapy OR injection OR injected OR infusion OR tablet OR ingestion) AND (fatal OR death OR deadly OR overdose OR (morphine toxicity)) AND (dose OR ((blood OR plasma OR serum) OR concentration OR level))) NOT review [Publication Type])"
 
 queries <- c(my_query1, my_query2, my_query3, my_query4, my_query5, my_query6)
 
